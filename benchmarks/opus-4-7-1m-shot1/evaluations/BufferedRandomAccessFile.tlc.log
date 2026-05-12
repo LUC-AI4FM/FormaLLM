@@ -1,0 +1,24 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 48 and seed 5881037338798926910 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 44760] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/BufferedRandomAccessFile/BufferedRandomAccessFile.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/BufferedRandomAccessFile/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/BufferedRandomAccessFile/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/BufferedRandomAccessFile/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-17608763973744181624/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+
+Fatal errors while parsing TLA+ spec in file BufferedRandomAccessFile
+
+In module BufferedRandomAccessFile
+
+Cannot find source file for module RandomAccessFile imported in module BufferedRandomAccessFile.
+*** Errors: 1
+
+In module BufferedRandomAccessFile
+
+Cannot find source file for module RandomAccessFile imported in module BufferedRandomAccessFile.
+
+
+
+Starting... (2026-05-11 20:11:57)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:11:57)

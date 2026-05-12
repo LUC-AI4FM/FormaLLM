@@ -1,0 +1,21 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 33 and seed -4920964802694385255 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 44802] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EWD687a_anim/EWD687a_anim.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EWD687a_anim/EWD687a.tla
+
+Fatal errors while parsing TLA+ spec in file EWD687a_anim
+
+In module EWD687a_anim
+
+Cannot find source file for module SVG imported in module EWD687a_anim.
+*** Errors: 1
+
+In module EWD687a_anim
+
+Cannot find source file for module SVG imported in module EWD687a_anim.
+
+
+
+Starting... (2026-05-11 20:11:58)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:11:58)

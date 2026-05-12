@@ -1,0 +1,138 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 101 and seed -7557877391229954832 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 26908] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/KVsnap.tla
+
+Unrecoverable error:
+ -- Expected "=" or "\in"  but found "t"
+    line 41, column 18.
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-1049307643438048560/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-1049307643438048560/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/ClientCentric.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-1049307643438048560/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/KVsnap/Integers.tla
+Warnings (1) during syntax parsing of KVsnap:
+
+
+In module KVsnap
+
+Both the PlusCal algorithm and its TLA+ translation in module KVsnap have changed since the last translation.
+
+
+
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module ClientCentric
+*** Warnings: 2
+
+line 100, col 11 to line 100, col 25 of module ClientCentric
+
+Multiple declarations or definitions for symbol Permutations.  
+This duplicates the one at line 81, col 1 to line 82, col 54 of module TLC.
+
+
+
+line 101, col 1 to line 103, col 88 of module ClientCentric
+
+Multiple declarations or definitions for symbol Permutations.  
+This duplicates the one at line 81, col 1 to line 82, col 54 of module TLC.
+
+
+
+Semantic errors:
+
+*** Errors: 3
+
+line 101, col 1 to line 103, col 88 of module ClientCentric
+
+Operator Permutations already defined or declared.
+
+
+line 103, col 82 to line 103, col 82 of module ClientCentric
+
+Unknown operator: `y'.
+
+
+line 100, col 11 to line 100, col 25 of module ClientCentric
+
+Symbol Permutations declared in RECURSIVE statement but not defined.
+
+
+Semantic processing of module KVsnap
+*** Warnings: 2
+
+line 100, col 11 to line 100, col 25 of module ClientCentric
+
+Multiple declarations or definitions for symbol Permutations.  
+This duplicates the one at line 81, col 1 to line 82, col 54 of module TLC.
+
+
+
+line 101, col 1 to line 103, col 88 of module ClientCentric
+
+Multiple declarations or definitions for symbol Permutations.  
+This duplicates the one at line 81, col 1 to line 82, col 54 of module TLC.
+
+
+
+Semantic errors:
+
+*** Errors: 8
+
+line 101, col 1 to line 103, col 88 of module ClientCentric
+
+Operator Permutations already defined or declared.
+
+
+line 103, col 82 to line 103, col 82 of module ClientCentric
+
+Unknown operator: `y'.
+
+
+line 100, col 11 to line 100, col 25 of module ClientCentric
+
+Symbol Permutations declared in RECURSIVE statement but not defined.
+
+
+line 142, col 16 to line 142, col 16 of module KVsnap
+
+Multiply-defined symbol 't': this definition or declaration conflicts 
+with the one at line 112, col 1 to line 112, col 68 of module KVsnap.
+
+
+line 142, col 32 to line 142, col 32 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 142, col 51 to line 142, col 51 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 142, col 8 to line 142, col 8 of module KVsnap
+
+Multiply-defined symbol 't': this definition or declaration conflicts 
+with the one at line 112, col 1 to line 112, col 68 of module KVsnap.
+
+
+line 141, col 18 to line 141, col 18 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+Starting... (2026-05-11 19:53:50)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 19:53:50)

@@ -1,0 +1,30 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 73 and seed -8293084671295789971 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 59114] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BufferedRandomAccessFile/BufferedRandomAccessFile.tla
+***Parse Error***
+Encountered "->" at line 48, column 63 and token ")" 
+
+Residual stack trace follows:
+Some [] Form starting at line 48, column 47.
+ExtendableExpr starting at line 48, column 47.
+Expression starting at line 48, column 47.
+IF THEN ELSE starting at line 48, column 19.
+Expression starting at line 48, column 19.
+
+
+Fatal errors while parsing TLA+ spec in file BufferedRandomAccessFile
+
+In module BufferedRandomAccessFile
+
+Could not parse module BufferedRandomAccessFile from file BufferedRandomAccessFile.tla
+*** Errors: 1
+
+In module BufferedRandomAccessFile
+
+Could not parse module BufferedRandomAccessFile from file BufferedRandomAccessFile.tla
+
+
+
+Starting... (2026-05-11 20:34:48)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:34:48)

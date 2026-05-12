@@ -1,0 +1,16 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EWD687a_anim/EWD687a_anim.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EWD687a_anim/EWD687a.tla
+
+Fatal errors while parsing TLA+ spec in file EWD687a_anim.tla
+
+In module EWD687a_anim
+
+Cannot find source file for module SVG imported in module EWD687a_anim.
+*** Errors: 1
+
+In module EWD687a_anim
+
+Cannot find source file for module SVG imported in module EWD687a_anim.

@@ -1,0 +1,38 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 91 and seed -6454463995126140616 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 59757] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/YoYoNoPruning/YoYoNoPruning.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/YoYoNoPruning/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/YoYoNoPruning/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-15692108624215986586/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-15692108624215986586/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/YoYoNoPruning/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/YoYoNoPruning/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/YoYoNoPruning/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/YoYoNoPruning/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-15692108624215986586/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module YoYoNoPruning
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module YoYoNoPruning
+Starting... (2026-05-11 20:35:59)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-11 20:35:59.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.9E-17
+39 states generated, 14 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 9.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 3 and the 95th percentile is 3).
+Finished in 00s at (2026-05-11 20:35:59)

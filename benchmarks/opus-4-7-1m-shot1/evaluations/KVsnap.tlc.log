@@ -1,0 +1,63 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 38 and seed -2864074632699827777 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 44870] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/KVsnap.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-9998080934659625646/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-9998080934659625646/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/ClientCentric.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-9998080934659625646/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/KVsnap/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module ClientCentric
+Semantic processing of module KVsnap
+Semantic errors:
+
+*** Errors: 6
+
+line 144, col 55 to line 144, col 55 of module KVsnap
+
+Multiply-defined symbol 't': this definition or declaration conflicts 
+with the one at line 121, col 1 to line 121, col 68 of module KVsnap.
+
+
+line 144, col 34 to line 144, col 34 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 144, col 49 to line 144, col 49 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 151, col 53 to line 151, col 53 of module KVsnap
+
+Multiply-defined symbol 't': this definition or declaration conflicts 
+with the one at line 121, col 1 to line 121, col 68 of module KVsnap.
+
+
+line 151, col 32 to line 151, col 32 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 151, col 47 to line 151, col 47 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+Starting... (2026-05-11 20:12:00)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:12:00)

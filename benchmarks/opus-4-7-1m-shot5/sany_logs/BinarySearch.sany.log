@@ -1,0 +1,27 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/BinarySearch.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/TLAPS.tla
+***Parse Error***
+Was expecting "Expression or Instance"
+Encountered "ASSUME" at line 296, column 3 and token "==" 
+
+Residual stack trace follows:
+Definition starting at line 295, column 1.
+Module body starting at line 20, column 1.
+Module definition starting at line 1, column 1.
+
+
+Fatal errors while parsing TLA+ spec in file BinarySearch.tla
+
+In module TLAPS
+
+Could not parse module TLAPS from file TLAPS.tla
+*** Errors: 1
+
+In module TLAPS
+
+Could not parse module TLAPS from file TLAPS.tla

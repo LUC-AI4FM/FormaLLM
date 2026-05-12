@@ -1,0 +1,24 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 122 and seed -5445936339517162770 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 44979] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/MajorityProof.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/Majority.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/TLAPS.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/NaturalsInduction.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/SequenceTheorems.tla
+
+Fatal errors while parsing TLA+ spec in file MajorityProof
+
+In module MajorityProof
+
+Cannot find source file for module FiniteSetTheorems imported in module MajorityProof.
+*** Errors: 1
+
+In module MajorityProof
+
+Cannot find source file for module FiniteSetTheorems imported in module MajorityProof.
+
+
+
+Starting... (2026-05-11 20:12:03)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:12:03)

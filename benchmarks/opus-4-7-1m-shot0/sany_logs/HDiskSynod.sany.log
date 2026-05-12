@@ -1,0 +1,18 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/HDiskSynod/HDiskSynod.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/HDiskSynod/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/HDiskSynod/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/HDiskSynod/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/HDiskSynod/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/HDiskSynod/Sequences.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module HDiskSynod
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module HDiskSynod

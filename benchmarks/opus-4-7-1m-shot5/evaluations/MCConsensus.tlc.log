@@ -1,0 +1,34 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 10 and seed -2961100252070837443 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 59260] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/MCConsensus/MCConsensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/MCConsensus/Consensus.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-4205119384529767227/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/MCConsensus/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/MCConsensus/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/MCConsensus/TLAPS.tla
+***Parse Error***
+Was expecting "Expression or Instance"
+Encountered "ASSUME" at line 296, column 3 and token "==" 
+
+Residual stack trace follows:
+Definition starting at line 295, column 1.
+Module body starting at line 20, column 1.
+Module definition starting at line 1, column 1.
+
+
+Fatal errors while parsing TLA+ spec in file MCConsensus
+
+In module TLAPS
+
+Could not parse module TLAPS from file TLAPS.tla
+*** Errors: 1
+
+In module TLAPS
+
+Could not parse module TLAPS from file TLAPS.tla
+
+
+
+Starting... (2026-05-11 20:34:51)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:34:51)

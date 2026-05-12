@@ -1,0 +1,26 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/SimpleRegular/SimpleRegular.tla
+***Parse Error***
+
+  Precedence conflict between ops \lor in block line 65, col 9 to line 65, col 10 of module SimpleRegular and \land.
+
+Residual stack trace follows:
+ExtendableExpr starting at line 65, column 12.
+ExtendableExpr starting at line 64, column 9.
+Expression starting at line 64, column 9.
+Definition starting at line 64, column 1.
+Module body starting at line 20, column 1.
+
+
+Fatal errors while parsing TLA+ spec in file SimpleRegular.tla
+
+In module SimpleRegular
+
+Could not parse module SimpleRegular from file SimpleRegular.tla
+*** Errors: 1
+
+In module SimpleRegular
+
+Could not parse module SimpleRegular from file SimpleRegular.tla

@@ -1,0 +1,40 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/MCConsensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/Consensus.tla
+
+Unrecoverable error:
+ -- Expected "{" but found "*"
+    line 19, column 76.
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/TLAPS.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCConsensus/Sequences.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLAPS
+Semantic processing of module Consensus
+Semantic processing of module MCConsensus
+*** Warnings: 1
+
+line 17, col 1 to line 19, col 31 of module MCConsensus
+
+Multiple declarations or definitions for symbol Inv.  
+This duplicates the one at line 55, col 1 to line 56, col 36 of module Consensus.
+
+
+
+Semantic errors:
+
+*** Errors: 1
+
+line 17, col 1 to line 19, col 31 of module MCConsensus
+
+Operator Inv already defined or declared.

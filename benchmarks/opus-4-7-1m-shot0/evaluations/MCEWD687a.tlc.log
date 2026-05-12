@@ -1,0 +1,88 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 108 and seed -4154956420597032625 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 27036] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/MCEWD687a.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/EWD687a.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-7399825491110004338/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-7399825491110004338/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Graphs.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-7399825491110004338/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module Graphs
+Semantic processing of module EWD687a
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module FiniteSets
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module TLC
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module TLCExt
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module _TLCTrace
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module MCEWD687a
+Semantic errors:
+
+*** Errors: 2
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+line 24, col 39 to line 24, col 43 of module MCEWD687a
+
+Unknown operator: `inbox'.
+
+
+Starting... (2026-05-11 19:53:52)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 19:53:52)

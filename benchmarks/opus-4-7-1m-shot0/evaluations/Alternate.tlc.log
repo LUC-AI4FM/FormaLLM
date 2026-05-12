@@ -1,0 +1,9 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 128 and seed -6657517632327835868 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 26647] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a tlc2.tool.ConfigFileException
+: TLC found an error in the configuration file at line 3
+It was expecting = or <-, but did not find it.
+Finished in 00s at (2026-05-11 19:53:47)

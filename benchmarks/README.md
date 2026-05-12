@@ -21,9 +21,14 @@ benchmarks/
 
 ## Currently included
 
-| LLM | Date | Pass Rate (flat) | Pass Rate (non-vacuous) |
-|---|---|---|---|
-| `claude-opus-4-7[1m]` | 2026-05-11 | 26.67% (8/30) | 16.67% (5/30) |
+| LLM | Variant | Date | Pass Rate (flat) | Pass Rate (non-vacuous) |
+|---|---|---|---|---|
+| `claude-opus-4-7[1m]` | shot0 | 2026-05-11 | 26.67% (8/30) | **23.33%** (7/30) |
+| `claude-opus-4-7[1m]` | shot1 | 2026-05-11 | 30.00% (9/30) | 16.67% (5/30) |
+| `claude-opus-4-7[1m]` | shot3 (default) | 2026-05-11 | 26.67% (8/30) | 16.67% (5/30) |
+| `claude-opus-4-7[1m]` | shot5 | 2026-05-11 | 16.67% (5/30) | 13.33% (4/30) |
+
+See [ABLATION_REPORT.md](ABLATION_REPORT.md) for the per-shot analysis. Headline: **0-shot beats few-shot for this model** with the pipeline's default fixed-prefix exemplar selector.
 
 ## Adding a new model
 
