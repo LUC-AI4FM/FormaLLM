@@ -1,0 +1,21 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCConsensus/MCConsensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCConsensus/Consensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCConsensus/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCConsensus/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCConsensus/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCConsensus/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCConsensus/Sequences.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Consensus
+Semantic processing of module MCConsensus
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module Consensus
+Linting of module MCConsensus

@@ -1,0 +1,145 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 46 and seed 7873679640928390670 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 89748] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/VoucherTransfer.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/Naturals.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-14397309963985818544/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/VoucherLifeCycle.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-14397309963985818544/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-14397309963985818544/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherTransfer/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module VoucherLifeCycle
+Semantic processing of module VoucherTransfer
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module VoucherLifeCycle
+Linting of module VoucherTransfer
+Starting... (2026-05-11 18:25:58)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-11 18:25:58.
+Progress(8) at 2026-05-11 18:26:01: 1,077,055 states generated (1,077,055 s/min), 206,327 distinct states found (206,327 ds/min), 137,942 states left on queue.
+Error: Invariant VTPConsistent is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ msgs = {}
+/\ vtpState = "init"
+/\ shState = (src1 :> "holding" @@ src2 :> "holding" @@ src3 :> "holding")
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {}
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+
+State 2: <SHPrepare(src1) line 94, col 5 to line 98, col 70 of module VoucherTransfer>
+/\ msgs = {[type |-> "Prepared", vsh |-> src1, vdh |-> dst1]}
+/\ vtpState = "init"
+/\ shState = (src1 :> "prepared" @@ src2 :> "holding" @@ src3 :> "holding")
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {}
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+
+State 3: <VTPRcvPrepared(src1,dst1) line 65, col 5 to line 68, col 71 of module VoucherTransfer>
+/\ msgs = {[type |-> "Prepared", vsh |-> src1, vdh |-> dst1]}
+/\ vtpState = "init"
+/\ shState = (src1 :> "prepared" @@ src2 :> "holding" @@ src3 :> "holding")
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, dst1}
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+
+State 4: <SHPrepare(src2) line 94, col 5 to line 98, col 70 of module VoucherTransfer>
+/\ msgs = { [type |-> "Prepared", vsh |-> src1, vdh |-> dst1],
+  [type |-> "Prepared", vsh |-> src2, vdh |-> dst2] }
+/\ vtpState = "init"
+/\ shState = (src1 :> "prepared" @@ src2 :> "prepared" @@ src3 :> "holding")
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, dst1}
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+
+State 5: <VTPRcvPrepared(src2,dst2) line 65, col 5 to line 68, col 71 of module VoucherTransfer>
+/\ msgs = { [type |-> "Prepared", vsh |-> src1, vdh |-> dst1],
+  [type |-> "Prepared", vsh |-> src2, vdh |-> dst2] }
+/\ vtpState = "init"
+/\ shState = (src1 :> "prepared" @@ src2 :> "prepared" @@ src3 :> "holding")
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, src2, dst1, dst2}
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+
+State 6: <SHPrepare(src3) line 94, col 5 to line 98, col 70 of module VoucherTransfer>
+/\ msgs = { [type |-> "Prepared", vsh |-> src1, vdh |-> dst1],
+  [type |-> "Prepared", vsh |-> src2, vdh |-> dst2],
+  [type |-> "Prepared", vsh |-> src3, vdh |-> dst3] }
+/\ vtpState = "init"
+/\ shState = (src1 :> "prepared" @@ src2 :> "prepared" @@ src3 :> "prepared")
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, src2, dst1, dst2}
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+
+State 7: <VTPRcvPrepared(src3,dst3) line 65, col 5 to line 68, col 71 of module VoucherTransfer>
+/\ msgs = { [type |-> "Prepared", vsh |-> src1, vdh |-> dst1],
+  [type |-> "Prepared", vsh |-> src2, vdh |-> dst2],
+  [type |-> "Prepared", vsh |-> src3, vdh |-> dst3] }
+/\ vtpState = "init"
+/\ shState = (src1 :> "prepared" @@ src2 :> "prepared" @@ src3 :> "prepared")
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, src2, src3, dst1, dst2, dst3}
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+
+State 8: <VTPTransfer(v1) line 72, col 5 to line 78, col 51 of module VoucherTransfer>
+/\ msgs = { [type |-> "Transfer"],
+  [type |-> "Prepared", vsh |-> src1, vdh |-> dst1],
+  [type |-> "Prepared", vsh |-> src2, vdh |-> dst2],
+  [type |-> "Prepared", vsh |-> src3, vdh |-> dst3] }
+/\ vtpState = "done"
+/\ shState = (src1 :> "prepared" @@ src2 :> "prepared" @@ src3 :> "prepared")
+/\ vState = (v1 :> "transferred" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, src2, src3, dst1, dst2, dst3}
+/\ vlcState = (v1 :> "transferred" @@ v2 :> "working" @@ v3 :> "working")
+
+State 9: <SHRcvTransferMsg(src1) line 108, col 5 to line 110, col 76 of module VoucherTransfer>
+/\ msgs = { [type |-> "Transfer"],
+  [type |-> "Prepared", vsh |-> src1, vdh |-> dst1],
+  [type |-> "Prepared", vsh |-> src2, vdh |-> dst2],
+  [type |-> "Prepared", vsh |-> src3, vdh |-> dst3] }
+/\ vtpState = "done"
+/\ shState = (src1 :> "transferred" @@ src2 :> "prepared" @@ src3 :> "prepared")
+/\ vState = (v1 :> "transferred" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "waiting" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, src2, src3, dst1, dst2, dst3}
+/\ vlcState = (v1 :> "transferred" @@ v2 :> "working" @@ v3 :> "working")
+
+State 10: <DHChooseToAbort(dst1) line 130, col 5 to line 132, col 76 of module VoucherTransfer>
+/\ msgs = { [type |-> "Transfer"],
+  [type |-> "Prepared", vsh |-> src1, vdh |-> dst1],
+  [type |-> "Prepared", vsh |-> src2, vdh |-> dst2],
+  [type |-> "Prepared", vsh |-> src3, vdh |-> dst3] }
+/\ vtpState = "done"
+/\ shState = (src1 :> "transferred" @@ src2 :> "prepared" @@ src3 :> "prepared")
+/\ vState = (v1 :> "transferred" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ dhState = (dst1 :> "aborted" @@ dst2 :> "waiting" @@ dst3 :> "waiting")
+/\ vtpTPrepared = {src1, src2, src3, dst1, dst2, dst3}
+/\ vlcState = (v1 :> "transferred" @@ v2 :> "working" @@ v3 :> "working")
+
+7427869 states generated, 1103242 distinct states found, 524560 states left on queue.
+The depth of the complete state graph search is 10.
+Finished in 20s at (2026-05-11 18:26:18)
+Trace exploration spec path: ./VoucherTransfer_TTrace_1778541958.tla

@@ -198,5 +198,11 @@ cython_debug/
 
 outputs/*
 
+# Benchmarks: track LLM eval artifacts here. Override global *.log so per-spec
+# SANY and TLC logs can be committed for paper reproduction.
+!benchmarks/
+!benchmarks/**
+!benchmarks/**/*.log
+
 # MLFlow runs
 #mlruns/*

@@ -1,0 +1,2 @@
+LLM,Date,Total,SANY_Pass,TLC_Pass,TLC_Pass_Vacuous,TLC_Fail,TLC_Error,Stubs_Skipped,Success_Rate_All,Success_Rate_NonVacuous,Notes
+anthropic_claude-opus-4-7-1m,2026-05-11,30,18,8,3,5,17,4,26.67%,16.67%,"Includes 4 stubs (null comments in val.json); 3 vacuous passes had 0 distinct initial states. Non-vacuous PASS: Majority(789 distinct), Consensus(4), SimpleRegular(277K), YoYoNoPruning(14), nbacc_ray97(2804)."

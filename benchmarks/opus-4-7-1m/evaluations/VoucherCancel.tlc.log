@@ -1,0 +1,145 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 73 and seed -5276695063768779704 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 89688] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/VoucherCancel.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/Naturals.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-4402676223159902037/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/VoucherLifeCycle.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-4402676223159902037/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-4402676223159902037/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/VoucherCancel/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module VoucherLifeCycle
+Semantic processing of module VoucherCancel
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module VoucherLifeCycle
+Linting of module VoucherCancel
+Starting... (2026-05-11 18:25:38)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-11 18:25:38.
+Progress(8) at 2026-05-11 18:25:41: 1,090,881 states generated (1,090,881 s/min), 207,638 distinct states found (207,638 ds/min), 138,122 states left on queue.
+Error: Invariant VTPConsistent is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ msgs = {}
+/\ vtpState = "init"
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "holding" @@ holder2 :> "holding" @@ holder3 :> "holding")
+
+State 2: <HPrepare(holder1) line 83, col 5 to line 87, col 69 of module VoucherCancel>
+/\ msgs = {[type |-> "Prepared", vh |-> holder1, vc |-> issuer1]}
+/\ vtpState = "init"
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "prepared" @@ holder2 :> "holding" @@ holder3 :> "holding")
+
+State 3: <VTPRcvPrepared(holder1,issuer1) line 59, col 5 to line 62, col 69 of module VoucherCancel>
+/\ msgs = {[type |-> "Prepared", vh |-> holder1, vc |-> issuer1]}
+/\ vtpState = "init"
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, issuer1}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "prepared" @@ holder2 :> "holding" @@ holder3 :> "holding")
+
+State 4: <HPrepare(holder2) line 83, col 5 to line 87, col 69 of module VoucherCancel>
+/\ msgs = { [type |-> "Prepared", vh |-> holder1, vc |-> issuer1],
+  [type |-> "Prepared", vh |-> holder2, vc |-> issuer2] }
+/\ vtpState = "init"
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, issuer1}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "prepared" @@ holder2 :> "prepared" @@ holder3 :> "holding")
+
+State 5: <VTPRcvPrepared(holder2,issuer2) line 59, col 5 to line 62, col 69 of module VoucherCancel>
+/\ msgs = { [type |-> "Prepared", vh |-> holder1, vc |-> issuer1],
+  [type |-> "Prepared", vh |-> holder2, vc |-> issuer2] }
+/\ vtpState = "init"
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, holder2, issuer1, issuer2}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "prepared" @@ holder2 :> "prepared" @@ holder3 :> "holding")
+
+State 6: <HPrepare(holder3) line 83, col 5 to line 87, col 69 of module VoucherCancel>
+/\ msgs = { [type |-> "Prepared", vh |-> holder1, vc |-> issuer1],
+  [type |-> "Prepared", vh |-> holder2, vc |-> issuer2],
+  [type |-> "Prepared", vh |-> holder3, vc |-> issuer3] }
+/\ vtpState = "init"
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, holder2, issuer1, issuer2}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "prepared" @@ holder2 :> "prepared" @@ holder3 :> "prepared")
+
+State 7: <VTPRcvPrepared(holder3,issuer3) line 59, col 5 to line 62, col 69 of module VoucherCancel>
+/\ msgs = { [type |-> "Prepared", vh |-> holder1, vc |-> issuer1],
+  [type |-> "Prepared", vh |-> holder2, vc |-> issuer2],
+  [type |-> "Prepared", vh |-> holder3, vc |-> issuer3] }
+/\ vtpState = "init"
+/\ vState = (v1 :> "valid" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, holder2, holder3, issuer1, issuer2, issuer3}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "working" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "prepared" @@ holder2 :> "prepared" @@ holder3 :> "prepared")
+
+State 8: <VTPCancel(v1) line 66, col 5 to line 72, col 49 of module VoucherCancel>
+/\ msgs = { [type |-> "Cancel"],
+  [type |-> "Prepared", vh |-> holder1, vc |-> issuer1],
+  [type |-> "Prepared", vh |-> holder2, vc |-> issuer2],
+  [type |-> "Prepared", vh |-> holder3, vc |-> issuer3] }
+/\ vtpState = "done"
+/\ vState = (v1 :> "cancelled" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, holder2, holder3, issuer1, issuer2, issuer3}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "cancelled" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "prepared" @@ holder2 :> "prepared" @@ holder3 :> "prepared")
+
+State 9: <HRcvCancelMsg(holder1) line 95, col 5 to line 97, col 75 of module VoucherCancel>
+/\ msgs = { [type |-> "Cancel"],
+  [type |-> "Prepared", vh |-> holder1, vc |-> issuer1],
+  [type |-> "Prepared", vh |-> holder2, vc |-> issuer2],
+  [type |-> "Prepared", vh |-> holder3, vc |-> issuer3] }
+/\ vtpState = "done"
+/\ vState = (v1 :> "cancelled" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, holder2, holder3, issuer1, issuer2, issuer3}
+/\ iState = (issuer1 :> "issued" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "cancelled" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "cancelled" @@ holder2 :> "prepared" @@ holder3 :> "prepared")
+
+State 10: <IChooseToAbort(issuer1) line 112, col 5 to line 114, col 75 of module VoucherCancel>
+/\ msgs = { [type |-> "Cancel"],
+  [type |-> "Prepared", vh |-> holder1, vc |-> issuer1],
+  [type |-> "Prepared", vh |-> holder2, vc |-> issuer2],
+  [type |-> "Prepared", vh |-> holder3, vc |-> issuer3] }
+/\ vtpState = "done"
+/\ vState = (v1 :> "cancelled" @@ v2 :> "valid" @@ v3 :> "valid")
+/\ vtpCPrepared = {holder1, holder2, holder3, issuer1, issuer2, issuer3}
+/\ iState = (issuer1 :> "aborted" @@ issuer2 :> "issued" @@ issuer3 :> "issued")
+/\ vlcState = (v1 :> "cancelled" @@ v2 :> "working" @@ v3 :> "working")
+/\ hState = (holder1 :> "cancelled" @@ holder2 :> "prepared" @@ holder3 :> "prepared")
+
+7427869 states generated, 1103242 distinct states found, 524560 states left on queue.
+The depth of the complete state graph search is 10.
+Finished in 20s at (2026-05-11 18:25:58)
+Trace exploration spec path: ./VoucherCancel_TTrace_1778541937.tla
