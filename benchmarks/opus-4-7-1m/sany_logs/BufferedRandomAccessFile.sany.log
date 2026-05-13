@@ -1,0 +1,18 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/BufferedRandomAccessFile/BufferedRandomAccessFile.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/BufferedRandomAccessFile/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/BufferedRandomAccessFile/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/BufferedRandomAccessFile/FiniteSets.tla
+
+Fatal errors while parsing TLA+ spec in file BufferedRandomAccessFile.tla
+
+In module BufferedRandomAccessFile
+
+Cannot find source file for module RandomAccessFile imported in module BufferedRandomAccessFile.
+*** Errors: 1
+
+In module BufferedRandomAccessFile
+
+Cannot find source file for module RandomAccessFile imported in module BufferedRandomAccessFile.

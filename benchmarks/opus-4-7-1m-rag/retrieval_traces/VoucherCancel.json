@@ -1,0 +1,1 @@
+{"target": "VoucherCancel", "exemplars": ["VoucherRedeem", "VoucherIssue", "VoucherLifeCycle"], "rationale": "Sibling Voucher specs share the 2PC commit pattern; VoucherRedeem is direct template (H/C -> H/I, redeemed -> cancelled)"}

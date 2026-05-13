@@ -1,0 +1,9 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/VoucherTransfer/VoucherTransfer.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/VoucherTransfer/VoucherLifeCycle.tla
+Semantic processing of module VoucherLifeCycle
+Semantic processing of module VoucherTransfer
+Linting of module VoucherLifeCycle
+Linting of module VoucherTransfer

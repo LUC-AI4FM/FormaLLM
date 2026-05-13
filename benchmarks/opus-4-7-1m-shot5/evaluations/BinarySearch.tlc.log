@@ -1,0 +1,32 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 4 and seed -3091595193694921904 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 59102] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/BinarySearch.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/BinarySearch/TLAPS.tla
+***Parse Error***
+Was expecting "Expression or Instance"
+Encountered "ASSUME" at line 296, column 3 and token "==" 
+
+Residual stack trace follows:
+Definition starting at line 295, column 1.
+Module body starting at line 20, column 1.
+Module definition starting at line 1, column 1.
+
+
+Fatal errors while parsing TLA+ spec in file BinarySearch
+
+In module TLAPS
+
+Could not parse module TLAPS from file TLAPS.tla
+*** Errors: 1
+
+In module TLAPS
+
+Could not parse module TLAPS from file TLAPS.tla
+
+
+
+Starting... (2026-05-11 20:34:48)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:34:48)

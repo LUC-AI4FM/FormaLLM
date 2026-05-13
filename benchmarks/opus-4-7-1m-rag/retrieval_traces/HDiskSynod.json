@@ -1,0 +1,1 @@
+{"target": "HDiskSynod", "exemplars": ["DiskSynod", "Synod"], "rationale": "HDiskSynod is the hierarchical generalization of DiskSynod in the same paper; Synod gives the abstract spec it refines."}

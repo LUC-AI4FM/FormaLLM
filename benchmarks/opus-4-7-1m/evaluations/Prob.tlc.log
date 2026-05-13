@@ -1,0 +1,28 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 97 and seed -3768823604927276961 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 89608] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/Prob/Prob.tla
+***Parse Error***
+Was expecting "---- MODULE (beginning of module)"
+Encountered "<EOF>" at line 1, column 24 and token "" 
+
+Residual stack trace follows:
+Begin module starting at line 1, column 24.
+Module definition starting at line 1, column 24.
+
+
+Fatal errors while parsing TLA+ spec in file Prob
+
+In module Prob
+
+Could not parse module Prob from file Prob.tla
+*** Errors: 1
+
+In module Prob
+
+Could not parse module Prob from file Prob.tla
+
+
+
+Starting... (2026-05-11 18:25:31)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 18:25:31)

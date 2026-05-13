@@ -1,0 +1,28 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 80 and seed 2240930988100846390 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 89540] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCLeastCircularSubstring/MCLeastCircularSubstring.tla
+***Parse Error***
+Was expecting "---- MODULE (beginning of module)"
+Encountered "<EOF>" at line 1, column 24 and token "" 
+
+Residual stack trace follows:
+Begin module starting at line 1, column 24.
+Module definition starting at line 1, column 24.
+
+
+Fatal errors while parsing TLA+ spec in file MCLeastCircularSubstring
+
+In module MCLeastCircularSubstring
+
+Could not parse module MCLeastCircularSubstring from file MCLeastCircularSubstring.tla
+*** Errors: 1
+
+In module MCLeastCircularSubstring
+
+Could not parse module MCLeastCircularSubstring from file MCLeastCircularSubstring.tla
+
+
+
+Starting... (2026-05-11 18:25:29)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 18:25:29)

@@ -1,0 +1,106 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 17 and seed -7498821337015076919 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 174] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/KVsnap.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/Util.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-1076255177334033518/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-1076255177334033518/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/Functions.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/KVsnap/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-1076255177334033518/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Functions
+Semantic processing of module TLC
+Semantic processing of module Util
+Semantic errors:
+
+*** Errors: 1
+
+line 15, col 34 to line 15, col 45 of module Util
+
+Unknown operator: `FoldFunction'.
+
+
+Semantic processing of module TLCExt
+Semantic errors:
+
+*** Errors: 1
+
+line 15, col 34 to line 15, col 45 of module Util
+
+Unknown operator: `FoldFunction'.
+
+
+Semantic processing of module _TLCTrace
+Semantic errors:
+
+*** Errors: 1
+
+line 15, col 34 to line 15, col 45 of module Util
+
+Unknown operator: `FoldFunction'.
+
+
+Semantic processing of module KVsnap
+Semantic errors:
+
+*** Errors: 9
+
+line 15, col 34 to line 15, col 45 of module Util
+
+Unknown operator: `FoldFunction'.
+
+
+line 90, col 23 to line 90, col 30 of module KVsnap
+
+Unknown operator: `SetToSeq'.
+
+
+line 115, col 31 to line 115, col 38 of module KVsnap
+
+Unknown operator: `SetToSeq'.
+
+
+line 142, col 11 to line 142, col 11 of module KVsnap
+
+Multiply-defined symbol 't': this definition or declaration conflicts 
+with the one at line 120, col 1 to line 120, col 68 of module KVsnap.
+
+
+line 143, col 14 to line 143, col 14 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 143, col 40 to line 143, col 40 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 144, col 42 to line 144, col 42 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 145, col 26 to line 145, col 26 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 145, col 45 to line 145, col 45 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+Starting... (2026-05-12 22:21:28)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-12 22:21:28)

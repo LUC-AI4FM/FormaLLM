@@ -1,0 +1,19 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/MajorityProof.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/Majority.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/TLAPS.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/NaturalsInduction.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MajorityProof/SequenceTheorems.tla
+
+Fatal errors while parsing TLA+ spec in file MajorityProof.tla
+
+In module MajorityProof
+
+Cannot find source file for module FiniteSetTheorems imported in module MajorityProof.
+*** Errors: 1
+
+In module MajorityProof
+
+Cannot find source file for module FiniteSetTheorems imported in module MajorityProof.

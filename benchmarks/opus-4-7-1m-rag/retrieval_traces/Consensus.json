@@ -1,0 +1,1 @@
+{"target": "Consensus", "exemplars": ["FindHighest", "VoteProof", "PConProof"], "rationale": "PlusCal+TLAPS abstract spec with chosen-singleton invariant; FindHighest shows the TLAPS proof skeleton, VoteProof references this Consensus spec in the refinement chain"}

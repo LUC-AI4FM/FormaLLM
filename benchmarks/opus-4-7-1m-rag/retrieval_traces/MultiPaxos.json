@@ -1,0 +1,1 @@
+{"target": "MultiPaxos", "exemplars": ["Paxos", "ReplicatedLog", "DistributedReplicatedLog"], "rationale": "MultiPaxos SMR over a single key; train Paxos and ReplicatedLog give the ballot/slot/message structure, DistributedReplicatedLog shows the message-set network model"}

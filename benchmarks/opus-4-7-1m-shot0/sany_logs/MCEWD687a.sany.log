@@ -1,0 +1,62 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/MCEWD687a.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/EWD687a.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-12159893608536125506/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Graphs.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCEWD687a/Sequences.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module Graphs
+Semantic processing of module EWD687a
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module FiniteSets
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module TLC
+Semantic errors:
+
+*** Errors: 1
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+Semantic processing of module MCEWD687a
+Semantic errors:
+
+*** Errors: 2
+
+line 423, col 16 to line 423, col 24 of module EWD687a
+
+Unknown operator: `Transpose'.
+
+
+line 24, col 39 to line 24, col 43 of module MCEWD687a
+
+Unknown operator: `inbox'.

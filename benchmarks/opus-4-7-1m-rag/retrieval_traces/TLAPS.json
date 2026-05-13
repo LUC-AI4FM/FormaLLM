@@ -1,0 +1,1 @@
+{"target": "TLAPS", "exemplars": ["EWD998 sibling proof modules (EWD998_proof)", "VoteProof", "ReachableProofs"], "rationale": "TLAPS is the standard pragma library used in proofs; consulted sibling proof modules for the pragma/THEOREM signatures expected"}

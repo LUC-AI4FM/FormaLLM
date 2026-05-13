@@ -1,0 +1,45 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 63 and seed 3643118314841003146 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 277] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/MultiPaxos_MC.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/MultiPaxos.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-3188699691511461417/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-3188699691511461417/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos_MC/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-3188699691511461417/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MultiPaxos
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module MultiPaxos_MC
+*** Warnings: 1
+
+line 19, col 1 to line 22, col 16 of module MultiPaxos_MC
+
+Multiple declarations or definitions for symbol Linearizability.  
+This duplicates the one at line 263, col 1 to line 266, col 44 of module MultiPaxos.
+
+
+
+Semantic errors:
+
+*** Errors: 1
+
+line 19, col 1 to line 22, col 16 of module MultiPaxos_MC
+
+Operator Linearizability already defined or declared.
+
+
+Starting... (2026-05-12 22:21:31)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-12 22:21:31)

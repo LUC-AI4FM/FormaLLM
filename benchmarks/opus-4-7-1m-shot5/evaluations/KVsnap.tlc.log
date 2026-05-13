@@ -1,0 +1,76 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 37 and seed -6184817480788311430 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 59233] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/KVsnap.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-8225425257219357692/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-8225425257219357692/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/ClientCentric.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/KVsnap/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-8225425257219357692/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Warnings (1) during syntax parsing of KVsnap:
+
+
+In module KVsnap
+
+The TLA+ translation in module KVsnap has changed since its last translation.
+
+
+
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module ClientCentric
+Semantic errors:
+
+*** Errors: 1
+
+line 95, col 30 to line 95, col 34 of module ClientCentric
+
+Unknown operator: `build'.
+
+
+Semantic processing of module KVsnap
+Semantic errors:
+
+*** Errors: 5
+
+line 95, col 30 to line 95, col 34 of module ClientCentric
+
+Unknown operator: `build'.
+
+
+line 22, col 1 to line 22, col 74 of module KVsnap
+
+Substitution missing for symbol InitValue declared at line 11, col 25 to line 11, col 33 of module ClientCentric 
+and instantiated in module KVsnap.
+
+
+line 152, col 34 to line 152, col 34 of module KVsnap
+
+Multiply-defined symbol 't': this definition or declaration conflicts 
+with the one at line 133, col 1 to line 133, col 68 of module KVsnap.
+
+
+line 152, col 29 to line 152, col 29 of module KVsnap
+
+The operator t requires 1 arguments.
+
+
+line 153, col 10 to line 153, col 26 of module KVsnap
+
+Unknown operator: `SnapshotIsolation'.
+
+
+Starting... (2026-05-11 20:34:51)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:34:51)

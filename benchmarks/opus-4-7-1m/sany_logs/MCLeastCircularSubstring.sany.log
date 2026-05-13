@@ -1,0 +1,23 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MCLeastCircularSubstring/MCLeastCircularSubstring.tla
+***Parse Error***
+Was expecting "---- MODULE (beginning of module)"
+Encountered "<EOF>" at line 1, column 24 and token "" 
+
+Residual stack trace follows:
+Begin module starting at line 1, column 24.
+Module definition starting at line 1, column 24.
+
+
+Fatal errors while parsing TLA+ spec in file MCLeastCircularSubstring.tla
+
+In module MCLeastCircularSubstring
+
+Could not parse module MCLeastCircularSubstring from file MCLeastCircularSubstring.tla
+*** Errors: 1
+
+In module MCLeastCircularSubstring
+
+Could not parse module MCLeastCircularSubstring from file MCLeastCircularSubstring.tla

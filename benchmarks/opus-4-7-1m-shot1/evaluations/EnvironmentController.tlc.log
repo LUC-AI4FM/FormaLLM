@@ -1,0 +1,153 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 112 and seed 7246912754685352628 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 44826] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EnvironmentController/EnvironmentController.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EnvironmentController/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EnvironmentController/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EnvironmentController/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-16689006162033291905/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-16689006162033291905/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EnvironmentController/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EnvironmentController/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-16689006162033291905/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/EnvironmentController/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module EnvironmentController
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module EnvironmentController
+Starting... (2026-05-11 20:11:59)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-11 20:11:59.
+Error: Invariant TypeOK is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"INIT", "INIT", "INIT">>
+/\ fromLastHeard = ( <<1, 1>> :> 0 @@
+  <<1, 2>> :> 0 @@
+  <<1, 3>> :> 0 @@
+  <<2, 1>> :> 0 @@
+  <<2, 2>> :> 0 @@
+  <<2, 3>> :> 0 @@
+  <<3, 1>> :> 0 @@
+  <<3, 2>> :> 0 @@
+  <<3, 3>> :> 0 )
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<FALSE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 0
+/\ procPause = <<0, 0, 0>>
+/\ delta = ( <<1, 1>> :> 2 @@
+  <<1, 2>> :> 2 @@
+  <<1, 3>> :> 2 @@
+  <<2, 1>> :> 2 @@
+  <<2, 2>> :> 2 @@
+  <<2, 3>> :> 2 @@
+  <<3, 1>> :> 2 @@
+  <<3, 2>> :> 2 @@
+  <<3, 3>> :> 2 )
+/\ localClock = <<0, 0, 0>>
+
+State 2: <EnvTick line 112, col 3 to line 120, col 62 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"NO", "NO", "NO">>
+/\ fromLastHeard = ( <<1, 1>> :> 0 @@
+  <<1, 2>> :> 0 @@
+  <<1, 3>> :> 0 @@
+  <<2, 1>> :> 0 @@
+  <<2, 2>> :> 0 @@
+  <<2, 3>> :> 0 @@
+  <<3, 1>> :> 0 @@
+  <<3, 2>> :> 0 @@
+  <<3, 3>> :> 0 )
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<FALSE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 0
+/\ procPause = <<1, 1, 1>>
+/\ delta = ( <<1, 1>> :> 2 @@
+  <<1, 2>> :> 2 @@
+  <<1, 3>> :> 2 @@
+  <<2, 1>> :> 2 @@
+  <<2, 2>> :> 2 @@
+  <<2, 3>> :> 2 @@
+  <<3, 1>> :> 2 @@
+  <<3, 2>> :> 2 @@
+  <<3, 3>> :> 2 )
+/\ localClock = <<0, 0, 0>>
+
+State 3: <Crash(1) line 98, col 3 to line 104, col 62 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "NO", "NO">>
+/\ fromLastHeard = ( <<1, 1>> :> 0 @@
+  <<1, 2>> :> 0 @@
+  <<1, 3>> :> 0 @@
+  <<2, 1>> :> 0 @@
+  <<2, 2>> :> 0 @@
+  <<2, 3>> :> 0 @@
+  <<3, 1>> :> 0 @@
+  <<3, 2>> :> 0 @@
+  <<3, 3>> :> 0 )
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<1, 1, 1>>
+/\ delta = ( <<1, 1>> :> 2 @@
+  <<1, 2>> :> 2 @@
+  <<1, 3>> :> 2 @@
+  <<2, 1>> :> 2 @@
+  <<2, 2>> :> 2 @@
+  <<2, 3>> :> 2 @@
+  <<3, 1>> :> 2 @@
+  <<3, 2>> :> 2 @@
+  <<3, 3>> :> 2 )
+/\ localClock = <<0, 0, 0>>
+
+State 4: <EnvTick line 112, col 3 to line 120, col 62 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"NO", "NO", "NO">>
+/\ fromLastHeard = ( <<1, 1>> :> 0 @@
+  <<1, 2>> :> 0 @@
+  <<1, 3>> :> 0 @@
+  <<2, 1>> :> 0 @@
+  <<2, 2>> :> 0 @@
+  <<2, 3>> :> 0 @@
+  <<3, 1>> :> 0 @@
+  <<3, 2>> :> 0 @@
+  <<3, 3>> :> 0 )
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<1, 2, 2>>
+/\ delta = ( <<1, 1>> :> 2 @@
+  <<1, 2>> :> 2 @@
+  <<1, 3>> :> 2 @@
+  <<2, 1>> :> 2 @@
+  <<2, 2>> :> 2 @@
+  <<2, 3>> :> 2 @@
+  <<3, 1>> :> 2 @@
+  <<3, 2>> :> 2 @@
+  <<3, 3>> :> 2 )
+/\ localClock = <<0, 0, 0>>
+
+23 states generated, 15 distinct states found, 8 states left on queue.
+The depth of the complete state graph search is 4.
+Finished in 00s at (2026-05-11 20:11:59)
+Trace exploration spec path: ./EnvironmentController_TTrace_1778548319.tla

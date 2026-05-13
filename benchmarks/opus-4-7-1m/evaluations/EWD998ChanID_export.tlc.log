@@ -1,0 +1,25 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 33 and seed 8009936730595579188 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 89438] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/EWD998ChanID_export/EWD998ChanID_export.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/EWD998ChanID_export/EWD998ChanID.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-17329732157593796531/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/EWD998ChanID_export/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/EWD998ChanID_export/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/EWD998ChanID_export/FiniteSets.tla
+
+Fatal errors while parsing TLA+ spec in file EWD998ChanID_export
+
+In module EWD998ChanID_export
+
+Cannot find source file for module IOUtils imported in module EWD998ChanID_export.
+*** Errors: 1
+
+In module EWD998ChanID_export
+
+Cannot find source file for module IOUtils imported in module EWD998ChanID_export.
+
+
+
+Starting... (2026-05-11 18:25:26)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 18:25:26)

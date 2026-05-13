@@ -1,0 +1,45 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 69 and seed 5097781689489426817 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 26971] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/MCConsensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/Consensus.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-18032064893921776947/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-18032064893921776947/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-18032064893921776947/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/MCConsensus/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Consensus
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module MCConsensus
+*** Warnings: 1
+
+line 11, col 1 to line 13, col 29 of module MCConsensus
+
+Multiple declarations or definitions for symbol Inv.  
+This duplicates the one at line 52, col 1 to line 54, col 29 of module Consensus.
+
+
+
+Semantic errors:
+
+*** Errors: 1
+
+line 11, col 1 to line 13, col 29 of module MCConsensus
+
+Operator Inv already defined or declared.
+
+
+Starting... (2026-05-11 19:53:51)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 19:53:51)

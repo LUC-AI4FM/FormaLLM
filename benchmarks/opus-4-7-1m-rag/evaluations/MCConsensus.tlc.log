@@ -1,0 +1,26 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 26 and seed 2312077061133492626 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 200] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MCConsensus/MCConsensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MCConsensus/Integers.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-1262156160271235082/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MCConsensus/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MCConsensus/Consensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MCConsensus/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MCConsensus/TLAPS.tla
+
+Fatal errors while parsing TLA+ spec in file MCConsensus
+
+In module Consensus
+
+Cannot find source file for module FiniteSetTheorems imported in module Consensus.
+*** Errors: 1
+
+In module Consensus
+
+Cannot find source file for module FiniteSetTheorems imported in module Consensus.
+
+
+
+Starting... (2026-05-12 22:21:28)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-12 22:21:28)

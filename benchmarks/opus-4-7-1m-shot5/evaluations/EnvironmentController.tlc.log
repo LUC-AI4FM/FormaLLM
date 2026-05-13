@@ -1,0 +1,51 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 126 and seed -3714406266098120445 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 59197] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/EnvironmentController.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-11261013402872644797/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-11261013402872644797/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/Age_Channel.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/EPFailureDetector.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot5/sany_workspace/EnvironmentController/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-11261013402872644797/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module Age_Channel
+Semantic processing of module EPFailureDetector
+Semantic processing of module EnvironmentController
+Semantic errors:
+
+*** Errors: 3
+
+line 120, col 1 to line 120, col 31 of module EnvironmentController
+
+Substitution missing for symbol Messages declared at line 6, col 10 to line 6, col 17 of module Age_Channel 
+and instantiated in module EnvironmentController.
+
+
+line 120, col 1 to line 120, col 31 of module EnvironmentController
+
+Substitution missing for symbol Boxes declared at line 7, col 10 to line 7, col 14 of module Age_Channel 
+and instantiated in module EnvironmentController.
+
+
+line 122, col 1 to line 122, col 38 of module EnvironmentController
+
+Substitution missing for symbol Messages declared at line 12, col 3 to line 12, col 10 of module EPFailureDetector 
+and instantiated in module EnvironmentController.
+
+
+Starting... (2026-05-11 20:34:49)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 20:34:49)

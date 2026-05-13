@@ -1,0 +1,1 @@
+{"target": "BinarySearch", "exemplars": ["Quicksort", "FindHighest", "SumSequence"], "rationale": "TLAPS-proved PlusCal loop on a sequence; Quicksort and FindHighest are the closest sibling proof structures with pc and inductive invariant"}

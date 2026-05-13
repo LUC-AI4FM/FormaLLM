@@ -1,0 +1,1 @@
+{"target": "MajorityProof", "exemplars": ["FindHighest", "MajorityProof relatives in train (ReachableProofs, ParReachProofs)", "VoteProof"], "rationale": "TLAPS proof skeleton extending the operational spec; FindHighest is the cleanest small-proof exemplar in train"}

@@ -1,0 +1,1 @@
+{"target": "KVsnap", "exemplars": ["KeyValueStore", "Util", "MCKVsnap"], "rationale": "PlusCal snapshot-isolation KV store; KeyValueStore is the sibling abstract spec, Util provides SetToSeq, MCKVsnap is the MC harness"}

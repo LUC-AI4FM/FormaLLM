@@ -1,0 +1,57 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 42 and seed -5863420874202414380 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 99958] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/BinarySearch.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/TLAPS.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/SequenceTheorems.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-5962641355901304186/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/WellFoundedInduction.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/Functions.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/NaturalsInduction.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-5962641355901304186/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-5962641355901304186/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BinarySearch/FiniteSets.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module TLAPS
+Semantic processing of module NaturalsInduction
+Semantic processing of module WellFoundedInduction
+Semantic processing of module Functions
+Semantic processing of module SequenceTheorems
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module BinarySearch
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLAPS
+Linting of module NaturalsInduction
+Linting of module WellFoundedInduction
+Linting of module Functions
+Linting of module SequenceTheorems
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module BinarySearch
+Starting... (2026-05-12 22:21:22)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Error: Attempted to enumerate { x \in S : p(x) } when S:
+Seq({1, 2, 3, 4})
+is not enumerable
+Error: The error occurred when TLC was evaluating the nested
+expressions at the following positions:
+0. Line 35, column 5 to line 40, column 15 in BinarySearch
+1. Line 35, column 8 to line 35, column 25 in BinarySearch
+
+
+0 states generated, 0 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 0.
+Finished in 00s at (2026-05-12 22:21:22)

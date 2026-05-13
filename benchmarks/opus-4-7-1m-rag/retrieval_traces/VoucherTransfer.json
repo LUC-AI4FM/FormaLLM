@@ -1,0 +1,1 @@
+{"target": "VoucherTransfer", "exemplars": ["VoucherRedeem", "VoucherLifeCycle"], "rationale": "Sibling Voucher specs share the exact 2PC structure; VoucherRedeem is the direct template (H/C -> SH/DH renaming)"}

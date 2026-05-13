@@ -1,0 +1,25 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/EWD687a_anim/EWD687a_anim.tla
+***Parse Error***
+Encountered "-" at line 85, column 40 and token "marker" 
+
+Residual stack trace follows:
+Field Value starting at line 85, column 34.
+Some [] Form starting at line 85, column 12.
+ExtendableExpr starting at line 85, column 12.
+Expression starting at line 85, column 12.
+Optional Arguments starting at line 83, column 11.
+
+
+Fatal errors while parsing TLA+ spec in file EWD687a_anim.tla
+
+In module EWD687a_anim
+
+Could not parse module EWD687a_anim from file EWD687a_anim.tla
+*** Errors: 1
+
+In module EWD687a_anim
+
+Could not parse module EWD687a_anim from file EWD687a_anim.tla

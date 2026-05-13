@@ -1,0 +1,30 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 62 and seed 1980267496190058177 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 26791] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot0/sany_workspace/EWD687a_anim/EWD687a_anim.tla
+***Parse Error***
+Encountered "-" at line 85, column 40 and token "marker" 
+
+Residual stack trace follows:
+Field Value starting at line 85, column 34.
+Some [] Form starting at line 85, column 12.
+ExtendableExpr starting at line 85, column 12.
+Expression starting at line 85, column 12.
+Optional Arguments starting at line 83, column 11.
+
+
+Fatal errors while parsing TLA+ spec in file EWD687a_anim
+
+In module EWD687a_anim
+
+Could not parse module EWD687a_anim from file EWD687a_anim.tla
+*** Errors: 1
+
+In module EWD687a_anim
+
+Could not parse module EWD687a_anim from file EWD687a_anim.tla
+
+
+
+Starting... (2026-05-11 19:53:49)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 19:53:49)

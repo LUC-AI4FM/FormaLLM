@@ -1,0 +1,149 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 87 and seed -8700985147653853791 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 262] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos/MultiPaxos.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-10936354300721711749/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-10936354300721711749/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/MultiPaxos/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-10936354300721711749/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module MultiPaxos
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module MultiPaxos
+Starting... (2026-05-12 22:21:30)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-12 22:21:30.
+Error: Invariant TypeOK is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ node = ( s1 :>
+      [ leader |-> "none",
+        balPrepared |-> 0,
+        balMaxKnown |-> 0,
+        commitUpTo |-> 0,
+        kvalue |-> "nil",
+        insts |->
+            << [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ] >> ] @@
+  s2 :>
+      [ leader |-> "none",
+        balPrepared |-> 0,
+        balMaxKnown |-> 0,
+        commitUpTo |-> 0,
+        kvalue |-> "nil",
+        insts |->
+            << [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ] >> ] @@
+  s3 :>
+      [ leader |-> "none",
+        balPrepared |-> 0,
+        balMaxKnown |-> 0,
+        commitUpTo |-> 0,
+        kvalue |-> "nil",
+        insts |->
+            << [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ] >> ] )
+/\ pending = <<w1, w2, r1>>
+/\ observed = <<>>
+/\ msgs = {}
+
+State 2: <Next line 243, col 32 to line 243, col 61 of module MultiPaxos>
+/\ node = ( s1 :>
+      [ leader |-> s1,
+        balPrepared |-> 0,
+        balMaxKnown |-> 1,
+        commitUpTo |-> 0,
+        kvalue |-> "nil",
+        insts |->
+            << [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ] >> ] @@
+  s2 :>
+      [ leader |-> "none",
+        balPrepared |-> 0,
+        balMaxKnown |-> 0,
+        commitUpTo |-> 0,
+        kvalue |-> "nil",
+        insts |->
+            << [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ] >> ] @@
+  s3 :>
+      [ leader |-> "none",
+        balPrepared |-> 0,
+        balMaxKnown |-> 0,
+        commitUpTo |-> 0,
+        kvalue |-> "nil",
+        insts |->
+            << [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ],
+               [ status |-> "Empty",
+                 cmd |-> "nil",
+                 voted |-> [cmd |-> "nil", bal |-> 0] ] >> ] )
+/\ pending = <<w1, w2, r1>>
+/\ observed = <<>>
+/\ msgs = { [bal |-> 1, type |-> "Prepare", src |-> s1],
+  [ bal |-> 1,
+    type |-> "PrepareReply",
+    src |-> s1,
+    votes |->
+        << [cmd |-> "nil", bal |-> 0],
+           [cmd |-> "nil", bal |-> 0],
+           [cmd |-> "nil", bal |-> 0] >> ] }
+
+2 states generated, 2 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 2.
+Finished in 00s at (2026-05-12 22:21:30)
+Trace exploration spec path: ./MultiPaxos_TTrace_1778642490.tla

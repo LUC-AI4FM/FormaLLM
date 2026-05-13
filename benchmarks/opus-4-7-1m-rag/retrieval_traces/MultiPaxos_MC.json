@@ -1,0 +1,1 @@
+{"target": "MultiPaxos_MC", "exemplars": ["MCKVS", "MCLamportMutex", "MCBakery"], "rationale": "Standard small MC wrapper using EXTENDS + Permutations symmetry plus a bounded-ballot constant"}

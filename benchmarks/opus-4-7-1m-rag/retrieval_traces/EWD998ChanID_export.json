@@ -1,0 +1,1 @@
+{"target": "EWD998ChanID_export", "exemplars": ["EWD998ChanID_shiviz", "EWD998ChanID"], "rationale": "Same EXTENDS-EWD998ChanID-wrap-and-export pattern as _shiviz; ChanID provides the underlying spec and variable set."}

@@ -1,0 +1,18 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/YoYoNoPruning/YoYoNoPruning.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-4470698349370713706/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/YoYoNoPruning/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/YoYoNoPruning/FiniteSets.tla
+
+Fatal errors while parsing TLA+ spec in file YoYoNoPruning.tla
+
+In module YoYoNoPruning
+
+Cannot find source file for module UndirectedGraphs imported in module YoYoNoPruning.
+*** Errors: 1
+
+In module YoYoNoPruning
+
+Cannot find source file for module UndirectedGraphs imported in module YoYoNoPruning.

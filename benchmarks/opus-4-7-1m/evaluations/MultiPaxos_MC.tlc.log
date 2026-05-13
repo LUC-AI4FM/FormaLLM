@@ -1,0 +1,211 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 78 and seed -5077552166883573082 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 89594] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/MultiPaxos_MC.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/MultiPaxos.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-9822102489382192219/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-9822102489382192219/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-9822102489382192219/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/anthropic_claude-opus-4-7-1m/sany_workspace/MultiPaxos_MC/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MultiPaxos
+*** Warnings: 2
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+Semantic errors:
+
+*** Errors: 2
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Operator SelectSeq already defined or declared.
+
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Symbol SelectSeq declared in RECURSIVE statement but not defined.
+
+
+Semantic processing of module Integers
+*** Warnings: 2
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+Semantic errors:
+
+*** Errors: 2
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Operator SelectSeq already defined or declared.
+
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Symbol SelectSeq declared in RECURSIVE statement but not defined.
+
+
+Semantic processing of module TLCExt
+*** Warnings: 2
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+Semantic errors:
+
+*** Errors: 2
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Operator SelectSeq already defined or declared.
+
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Symbol SelectSeq declared in RECURSIVE statement but not defined.
+
+
+Semantic processing of module _TLCTrace
+*** Warnings: 2
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+Semantic errors:
+
+*** Errors: 2
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Operator SelectSeq already defined or declared.
+
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Symbol SelectSeq declared in RECURSIVE statement but not defined.
+
+
+Semantic processing of module MultiPaxos_MC
+*** Warnings: 4
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Multiple declarations or definitions for symbol SelectSeq.  
+This duplicates the one at line 46, col 1 to line 58, col 14 of module Sequences.
+
+
+
+line 16, col 1 to line 16, col 27 of module MultiPaxos_MC
+
+Multiple declarations or definitions for symbol TypeOK.  
+This duplicates the one at line 113, col 1 to line 132, col 91 of module MultiPaxos.
+
+
+
+line 20, col 1 to line 20, col 45 of module MultiPaxos_MC
+
+Multiple declarations or definitions for symbol Linearizability.  
+This duplicates the one at line 277, col 1 to line 280, col 47 of module MultiPaxos.
+
+
+
+Semantic errors:
+
+*** Errors: 6
+
+line 75, col 1 to line 78, col 35 of module MultiPaxos
+
+Operator SelectSeq already defined or declared.
+
+
+line 74, col 11 to line 74, col 25 of module MultiPaxos
+
+Symbol SelectSeq declared in RECURSIVE statement but not defined.
+
+
+line 16, col 1 to line 16, col 27 of module MultiPaxos_MC
+
+Operator TypeOK already defined or declared.
+
+
+line 16, col 22 to line 16, col 27 of module MultiPaxos_MC
+
+Unknown operator: `TypeOK'.
+
+
+line 20, col 1 to line 20, col 45 of module MultiPaxos_MC
+
+Operator Linearizability already defined or declared.
+
+
+line 20, col 31 to line 20, col 45 of module MultiPaxos_MC
+
+Unknown operator: `Linearizability'.
+
+
+Starting... (2026-05-11 18:25:31)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-11 18:25:31)

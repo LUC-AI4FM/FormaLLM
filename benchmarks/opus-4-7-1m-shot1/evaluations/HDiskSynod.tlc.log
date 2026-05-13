@@ -1,0 +1,52 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 86 and seed -4010669650807904174 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 44837] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/HDiskSynod/HDiskSynod.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/HDiskSynod/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/HDiskSynod/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-113217438044424115/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-113217438044424115/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/HDiskSynod/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/HDiskSynod/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/HDiskSynod/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-113217438044424115/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/HDiskSynod/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module HDiskSynod
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module HDiskSynod
+Starting... (2026-05-11 20:11:59)
+Computing initial states...
+Error: TLC attempted to evaluate an unbounded CHOOSE.
+Make sure that the expression is of form CHOOSE x \in S: P(x).
+line 15, col 15 to line 15, col 40 of module HDiskSynod
+Error: TLC was unable to fingerprint.
+
+Fingerprint Stack Trace:
+0. Line 32, column 3 to line 35, column 41 in HDiskSynod
+1. Line 32, column 6 to line 32, column 52 in HDiskSynod
+2. Line 32, column 13 to line 32, column 52 in HDiskSynod
+3. Line 32, column 29 to line 32, column 51 in HDiskSynod
+4. Line 32, column 45 to line 32, column 50 in HDiskSynod
+5. Line 19, column 11 to line 19, column 53 in HDiskSynod
+6. Line 19, column 43 to line 19, column 52 in HDiskSynod
+7. Line 15, column 15 to line 15, column 40 in HDiskSynod
+
+
+Reason:
+TLC attempted to evaluate an unbounded CHOOSE.
+Make sure that the expression is of form CHOOSE x \in S: P(x).
+line 15, col 15 to line 15, col 40 of module HDiskSynod
+0 states generated, 0 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 0.
+Finished in 00s at (2026-05-11 20:11:59)

@@ -1,0 +1,60 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 49 and seed 1371272737833368454 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 44917] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/MCDieHarder.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/DieHarder.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-5081370219614793241/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/Peano.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-5081370219614793241/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-5081370219614793241/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/Sequences.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-shot1/sany_workspace/MCDieHarder/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module DieHarder
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module MCDieHarder
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module DieHarder
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module MCDieHarder
+Starting... (2026-05-11 20:12:01)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-11 20:12:01.
+Error: Invariant NotSolved is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+contents = [j1 |-> 0, j2 |-> 0]
+
+State 2: <FillJug("j2") line 56, col 16 to line 56, col 63 of module DieHarder>
+contents = [j1 |-> 0, j2 |-> 5]
+
+State 3: <JugToJug("j2","j1") line 62, col 7 to line 63, col 59 of module DieHarder>
+contents = [j1 |-> 3, j2 |-> 2]
+
+State 4: <EmptyJug("j1") line 58, col 16 to line 58, col 53 of module DieHarder>
+contents = [j1 |-> 0, j2 |-> 2]
+
+State 5: <JugToJug("j2","j1") line 62, col 7 to line 63, col 59 of module DieHarder>
+contents = [j1 |-> 2, j2 |-> 0]
+
+State 6: <FillJug("j2") line 56, col 16 to line 56, col 63 of module DieHarder>
+contents = [j1 |-> 2, j2 |-> 5]
+
+State 7: <JugToJug("j2","j1") line 62, col 7 to line 63, col 59 of module DieHarder>
+contents = [j1 |-> 3, j2 |-> 4]
+
+73 states generated, 14 distinct states found, 1 states left on queue.
+The depth of the complete state graph search is 7.
+Finished in 00s at (2026-05-11 20:12:01)
+Trace exploration spec path: ./MCDieHarder_TTrace_1778548321.tla
