@@ -10,9 +10,10 @@ val_models = ["MCDieHarder","ClientCentric","HDiskSynod","Alternate","Hanoi","Re
     "MultiPaxos_MC","VoucherCancel","Consensus","MultiPaxos","BinarySearch","SimpleRegular",
     "BufferedRandomAccessFile","KVsnap","Prob","MajorityProof","YoYoNoPruning","nbacc_ray97","TLAPS"]
 
-variants = ["opus-4-7-1m-shot0", "opus-4-7-1m-shot1", "opus-4-7-1m", "opus-4-7-1m-shot5"]
+variants = ["opus-4-7-1m-shot0", "opus-4-7-1m-shot1", "opus-4-7-1m", "opus-4-7-1m-shot5", "opus-4-7-1m-rag"]
 variant_labels = {"opus-4-7-1m-shot0":"shot0", "opus-4-7-1m-shot1":"shot1",
-                  "opus-4-7-1m":"shot3", "opus-4-7-1m-shot5":"shot5"}
+                  "opus-4-7-1m":"shot3", "opus-4-7-1m-shot5":"shot5",
+                  "opus-4-7-1m-rag":"rag"}
 
 all_rows = {}
 for variant in variants:
@@ -34,7 +35,7 @@ for variant in variants:
 # Write
 out = ROOT / "per_target_matrix.csv"
 fields = ["Target"]
-for label in ["shot0","shot1","shot3","shot5"]:
+for label in ["shot0","shot1","shot3","shot5","rag"]:
     fields.append(f"{label}_SANY")
     fields.append(f"{label}_TLC")
 
@@ -43,7 +44,7 @@ with out.open("w", newline="") as f:
     w.writerow(fields)
     for m in val_models:
         row = [m]
-        for label in ["shot0","shot1","shot3","shot5"]:
+        for label in ["shot0","shot1","shot3","shot5","rag"]:
             row.append(all_rows.get(m, {}).get(f"{label}_SANY", ""))
             row.append(all_rows.get(m, {}).get(f"{label}_TLC", ""))
         w.writerow(row)

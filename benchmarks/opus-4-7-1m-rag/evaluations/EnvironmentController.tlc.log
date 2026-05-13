@@ -1,0 +1,152 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 119 and seed -152693681035944475 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 137] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/EnvironmentController.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/Integers.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-6544883449082096496/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-6544883449082096496/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/Age_Channel.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/EPFailureDetector.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EnvironmentController/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-6544883449082096496/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module Age_Channel
+Semantic processing of module EPFailureDetector
+Semantic processing of module EnvironmentController
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module Age_Channel
+Linting of module EPFailureDetector
+Linting of module EnvironmentController
+Starting... (2026-05-12 22:21:24)
+Implied-temporal checking--satisfiability problem has 18 branches.
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-12 22:21:24.
+Checking 18 branches of temporal properties for the current state space with 63090 total distinct states at (2026-05-12 22:21:27)
+Error: Temporal property StrongCompleteness was violated.
+
+Error: The following behavior constitutes a counter-example:
+
+State 1: <Initial predicate>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"INIT", "INIT", "INIT">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<0, 0, 0>>, <<0, 0, 0>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<FALSE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 0
+/\ procPause = <<0, 0, 0>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 0, 0>>
+
+State 2: <Crash(1) line 87, col 5 to line 92, col 57 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "INIT", "INIT">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<0, 0, 0>>, <<0, 0, 0>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<0, 0, 0>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 0, 0>>
+
+State 3: <EnvTick line 100, col 5 to line 111, col 50 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "NO", "NO">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<0, 0, 0>>, <<0, 0, 0>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<0, 1, 1>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 0, 0>>
+
+State 4: <Receive(2) line 145, col 5 to line 161, col 38 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "RECEIVE", "NO">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<1, 1, 1>>, <<0, 0, 0>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<0, 0, 1>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 1, 0>>
+
+State 5: <Receive(3) line 145, col 5 to line 161, col 38 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "RECEIVE", "RECEIVE">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<1, 1, 1>>, <<1, 1, 1>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<0, 0, 0>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 1, 1>>
+
+State 6: <EnvTick line 100, col 5 to line 111, col 50 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "NO", "NO">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<1, 1, 1>>, <<1, 1, 1>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<0, 1, 1>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 1, 1>>
+
+State 7: <Receive(3) line 145, col 5 to line 161, col 38 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "NO", "RECEIVE">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<1, 1, 1>>, <<2, 2, 2>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<0, 1, 0>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 1, 2>>
+
+State 8: <Receive(2) line 145, col 5 to line 161, col 38 of module EnvironmentController>
+/\ outgoingMessages = <<{}, {}, {}>>
+/\ inTransit = {}
+/\ moved = <<"CRASH", "RECEIVE", "RECEIVE">>
+/\ fromLastHeard = <<<<0, 0, 0>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ suspected = <<{}, {}, {}>>
+/\ failed = <<TRUE, FALSE, FALSE>>
+/\ inDelivery = {}
+/\ nFailures = 1
+/\ procPause = <<0, 0, 0>>
+/\ delta = <<<<2, 2, 2>>, <<2, 2, 2>>, <<2, 2, 2>>>>
+/\ localClock = <<0, 2, 2>>
+
+State 9: Stuttering
+Finished checking temporal properties in 00s at 2026-05-12 22:21:27
+6305 states generated, 3505 distinct states found, 1966 states left on queue.
+The depth of the complete state graph search is 11.
+Finished in 03s at (2026-05-12 22:21:27)
+Trace exploration spec path: ./EnvironmentController_TTrace_1778642483.tla

@@ -27,8 +27,9 @@ benchmarks/
 | `claude-opus-4-7[1m]` | shot1 | 2026-05-11 | 30.00% (9/30) | 16.67% (5/30) |
 | `claude-opus-4-7[1m]` | shot3 (default) | 2026-05-11 | 26.67% (8/30) | 16.67% (5/30) |
 | `claude-opus-4-7[1m]` | shot5 | 2026-05-11 | 16.67% (5/30) | 13.33% (4/30) |
+| `claude-opus-4-7[1m]` | rag (agent self-retrieves from `data/`) | 2026-05-11 | 16.67% (5/30) | 13.33% (4/30) |
 
-See [ABLATION_REPORT.md](ABLATION_REPORT.md) for the per-shot analysis. Headline: **0-shot beats few-shot for this model** with the pipeline's default fixed-prefix exemplar selector.
+See [ABLATION_REPORT.md](ABLATION_REPORT.md) for the analysis. Two headline findings: **(1) 0-shot beats every few-shot variant** with the pipeline's default fixed-prefix exemplar selector. **(2) Agent-level RAG with free corpus access does not beat 0-shot either** — it ties with 5-shot at the bottom.
 
 ## Adding a new model
 

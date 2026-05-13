@@ -1,0 +1,1 @@
+{"target": "nbacc_ray97", "exemplars": ["nbacg_guer01", "aba_asyn_byz", "bcastByz"], "rationale": "Direct sibling: nbacg_guer01 in train is the same NBAC algorithm class (Guerraoui'01 variant) - same pc/sent/rcvd structure with a failure-detector twist for Raynal'97"}

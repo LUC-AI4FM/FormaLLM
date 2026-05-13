@@ -1,0 +1,1 @@
+{"target": "YoYoNoPruning", "exemplars": ["YoYoAllGraphs"], "rationale": "Direct sibling - same Yo-Yo leader-election structure minus the pruning machinery (no prune field, no termination); YoYoAllGraphs in train is the closest template"}

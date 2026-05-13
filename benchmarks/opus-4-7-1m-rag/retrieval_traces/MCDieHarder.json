@@ -1,0 +1,1 @@
+{"target": "MCDieHarder", "exemplars": ["DieHarder", "DieHard"], "rationale": "Comments explicitly reference DieHarder; this is its MC harness with concrete Jug/Capacity bindings."}

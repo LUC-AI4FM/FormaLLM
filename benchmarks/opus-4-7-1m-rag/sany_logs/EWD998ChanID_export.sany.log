@@ -1,0 +1,19 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EWD998ChanID_export/EWD998ChanID_export.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/EWD998ChanID_export/EWD998ChanID.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-14270895447130639925/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-14270895447130639925/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-14270895447130639925/Json.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/Json.tla)
+
+Fatal errors while parsing TLA+ spec in file EWD998ChanID_export.tla
+
+In module EWD998ChanID_export
+
+Cannot find source file for module IOUtils imported in module EWD998ChanID_export.
+*** Errors: 1
+
+In module EWD998ChanID_export
+
+Cannot find source file for module IOUtils imported in module EWD998ChanID_export.

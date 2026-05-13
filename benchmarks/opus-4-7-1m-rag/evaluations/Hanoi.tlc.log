@@ -1,0 +1,60 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 110 and seed -2943795774275141611 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 164] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Hanoi/Hanoi.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Hanoi/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Hanoi/FiniteSets.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-8794725081020152390/_TLCTrace.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Hanoi/ProtoReals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Hanoi/Peano.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Hanoi/Sequences.tla
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-8794725081020152390/TLC.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /private/var/folders/2q/79m85_bj1qlbkz3sts_bdfl00000gn/T/tlc-8794725081020152390/TLCExt.tla (jar:file:/Users/eric/GitHub/tla_benchmark/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Hanoi/Integers.tla
+Semantic processing of module Peano
+Semantic processing of module ProtoReals
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module Hanoi
+Linting of module Peano
+Linting of module ProtoReals
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module Hanoi
+Starting... (2026-05-12 22:21:27)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-05-12 22:21:27.
+Error: Invariant NotSolved is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+towers = <<7, 0, 0>>
+
+State 2: <Move(1,1,3) line 79, col 3 to line 84, col 34 of module Hanoi>
+towers = <<6, 0, 1>>
+
+State 3: <Move(2,1,2) line 79, col 3 to line 84, col 34 of module Hanoi>
+towers = <<4, 2, 1>>
+
+State 4: <Move(1,3,2) line 79, col 3 to line 84, col 34 of module Hanoi>
+towers = <<4, 3, 0>>
+
+State 5: <Move(4,1,3) line 79, col 3 to line 84, col 34 of module Hanoi>
+towers = <<0, 3, 4>>
+
+State 6: <Move(1,2,1) line 79, col 3 to line 84, col 34 of module Hanoi>
+towers = <<1, 2, 4>>
+
+State 7: <Move(2,2,3) line 79, col 3 to line 84, col 34 of module Hanoi>
+towers = <<1, 0, 6>>
+
+State 8: <Move(1,1,3) line 79, col 3 to line 84, col 34 of module Hanoi>
+towers = <<0, 0, 7>>
+
+53 states generated, 25 distinct states found, 6 states left on queue.
+The depth of the complete state graph search is 8.
+Finished in 00s at (2026-05-12 22:21:28)
+Trace exploration spec path: ./Hanoi_TTrace_1778642487.tla

@@ -1,0 +1,1 @@
+{"target": "TwoPhase", "exemplars": ["Alternate (already generated)", "ParReach", "EWD998Chan"], "rationale": "TwoPhase refines Alternate via INSTANCE WITH; consulted refinement-mapping patterns and channel-passing handshake idioms"}

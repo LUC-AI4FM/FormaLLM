@@ -1,0 +1,1 @@
+{"target": "BufferedRandomAccessFile", "exemplars": ["RingBuffer", "Disruptor_SPMC", "KVsnap"], "rationale": "Buffer-with-disk refinement; RingBuffer and Disruptor specs model bounded buffers with read/write cursors, KVsnap is a Java-class refinement spec in train"}

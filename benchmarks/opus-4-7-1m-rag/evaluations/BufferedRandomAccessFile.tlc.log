@@ -1,0 +1,31 @@
+TLC2 Version 2026.04.22.172729 (rev: 6320a09)
+Running breadth-first search Model-Checking with fp 15 and seed -5401643899032551020 with 1 worker on 10 cores with 14564MB heap and 64MB offheap memory [pid: 99976] (Mac OS X 26.3 aarch64, Eclipse Adoptium 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/BufferedRandomAccessFile/BufferedRandomAccessFile.tla
+***Parse Error***
+
+  Precedence conflict between ops => in block line 89, col 31 to line 89, col 32 of module BufferedRandomAccessFile and =>.
+
+Residual stack trace follows:
+ExtendableExpr starting at line 90, column 37.
+ExtendableExpr starting at line 90, column 17.
+ExtendableExpr starting at line 89, column 26.
+ExtendableExpr starting at line 89, column 13.
+Expression starting at line 89, column 13.
+
+
+Fatal errors while parsing TLA+ spec in file BufferedRandomAccessFile
+
+In module BufferedRandomAccessFile
+
+Could not parse module BufferedRandomAccessFile from file BufferedRandomAccessFile.tla
+*** Errors: 1
+
+In module BufferedRandomAccessFile
+
+Could not parse module BufferedRandomAccessFile from file BufferedRandomAccessFile.tla
+
+
+
+Starting... (2026-05-12 22:21:22)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-05-12 22:21:22)

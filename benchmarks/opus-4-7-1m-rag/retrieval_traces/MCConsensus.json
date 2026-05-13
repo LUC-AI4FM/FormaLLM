@@ -1,0 +1,1 @@
+{"target": "MCConsensus", "exemplars": ["MCMajority", "MCNano"], "rationale": "Simple MC wrapper - one-line INSTANCE pattern with model values for the abstract Value constant"}

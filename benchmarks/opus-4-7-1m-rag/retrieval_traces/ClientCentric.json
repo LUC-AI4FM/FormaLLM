@@ -1,0 +1,1 @@
+{"target": "ClientCentric", "exemplars": ["KeyValueStore", "Util"], "rationale": "Same KV-store directory; Util provides PermSeqs/SeqToSet/Last/ReduceSeq used by the isolation definitions."}

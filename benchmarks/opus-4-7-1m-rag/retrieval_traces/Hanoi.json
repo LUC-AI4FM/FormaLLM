@@ -1,0 +1,1 @@
+{"target": "Hanoi", "exemplars": ["DieHarder", "SlidingPuzzles"], "rationale": "Puzzle-as-search style: DieHarder shows the 'NotSolved invariant + TLC error trace' idiom; SlidingPuzzles gives the discrete-state board-move pattern."}

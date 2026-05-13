@@ -1,0 +1,18 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Consensus/Consensus.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Consensus/Naturals.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Consensus/FiniteSets.tla
+Parsing file /Users/eric/GitHub/FormaLLM/outputs/opus-4-7-1m-rag/sany_workspace/Consensus/TLAPS.tla
+
+Fatal errors while parsing TLA+ spec in file Consensus.tla
+
+In module Consensus
+
+Cannot find source file for module FiniteSetTheorems imported in module Consensus.
+*** Errors: 1
+
+In module Consensus
+
+Cannot find source file for module FiniteSetTheorems imported in module Consensus.

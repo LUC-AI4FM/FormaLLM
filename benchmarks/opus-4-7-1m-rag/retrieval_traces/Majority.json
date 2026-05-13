@@ -1,0 +1,1 @@
+{"target": "Majority", "exemplars": ["FindHighest", "Quicksort", "MCMajority"], "rationale": "Sequence-pass algorithm with PlusCal-style pc/loop and inductive invariant; FindHighest is the closest sequence-iteration TLAPS exemplar"}

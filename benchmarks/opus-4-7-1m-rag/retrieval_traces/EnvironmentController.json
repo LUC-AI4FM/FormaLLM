@@ -1,0 +1,1 @@
+{"target": "EnvironmentController", "exemplars": ["Age_Channel", "tcp", "bcastByz"], "rationale": "Channel-composition spec; Age_Channel is the direct sub-module exemplar in train; tcp/bcastByz show partial-synchrony / process composition idioms (EPFailureDetector is off-limits as a test target)"}
